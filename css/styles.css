@@ -1,12 +1,37 @@
 /*maybe montserrat
 merriweather
 fonts.google.com
-
 use percentage width of parents
 use float example fro portfolio images, section 55. could use divs
 */
+
+
+@media only screen and (max-width: 1400px) {
+  body {
+    background-color: #F5CF8E;
+    /* Yellow */
+  }
+  .subCardText {
+    margin: 0 10px;
+    height: 343;
+    vertical-align: middle;
+  }
+}
+
+@media only screen and (min-width: 1401px) {
+  .subCardText {
+    margin: 0 10px;
+    display: inline-block;
+    height: 343;
+    vertical-align: middle;
+    width: 300px;
+  }
+}
+
 body {
-  background-color: #EAF6F6;
+  /*  background-color: #EAF6F6; */
+  background-color: #32C3FF;
+  /* Blue */
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   margin: 0 auto 0 auto;
@@ -16,17 +41,13 @@ body {
 .card {
   background-color: white;
   border-radius: 25px;
-
   margin: 20px;
   padding: 20px;
 }
 
-.subCard {
-  background-color: #EAF6F6;
-
+.subCardImage {
   margin: 0 10px;
-  display:inline-block;
-  height:343;
+  height: 343;
   vertical-align: middle;
-
+  display: inline-block;
 }
