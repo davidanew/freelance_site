@@ -1,7 +1,21 @@
+
+/*maybe montserrat
+merriweather
+fonts.google.com
+
+use percentage width of parents
+
+use float example fro portfolio images, section 55. could use divs
+
+*/
+
 body {
   background-color: #EAF6F6;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+
 }
 
 hr {
@@ -17,4 +31,33 @@ h1 {
 
 h3 {
   color: #66BFBF;
+}
+
+.red { background-color: red}
+
+.white { background-color: white}
+
+#myheading{
+  color: blue
+}
+
+
+table{
+  border-spacing: 0;
+}
+img:hover{
+  background-color: green
+}
+
+
+.content {
+/*  max-width: 1200px;
+  margin: auto;
+  background: white;
+  padding: 10px; */
+}
+
+
+div{
+  background-color: blue
 }
